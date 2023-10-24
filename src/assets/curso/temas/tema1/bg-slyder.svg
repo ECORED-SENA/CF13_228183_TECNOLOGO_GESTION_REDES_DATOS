@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1325" height="490" viewBox="0 0 1325 490">
+  <defs>
+    <filter id="Rectángulo_386315" x="0" y="0" width="1325" height="490" filterUnits="userSpaceOnUse">
+      <feOffset dy="12" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="14" result="blur"/>
+      <feFlood flood-color="#96b2fd" flood-opacity="0.459"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_381416" x="0" y="0" width="1325" height="490" filterUnits="userSpaceOnUse">
+      <feOffset dy="12" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="14" result="blur-2"/>
+      <feFlood flood-color="#96b2fd" flood-opacity="0.459"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectángulo_386315)">
+        <rect id="Rectángulo_386315-2" data-name="Rectángulo 386315" width="1241" height="406" rx="12" transform="translate(180 2008)" fill="#fff"/>
+      </g>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectángulo_374959" data-name="Rectángulo 374959" width="98.561" height="98.561" transform="translate(0 69.693) rotate(-45)" fill="none" stroke="#6e40fc" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="bg-slyder" transform="translate(-138 -1978)">
+    <g transform="matrix(1, 0, 0, 1, 138, 1978)" filter="url(#Rectángulo_381416)">
+      <rect id="Rectángulo_381416-2" data-name="Rectángulo 381416" width="1241" height="406" rx="12" transform="translate(42 30)" fill="#fff"/>
+    </g>
+    <g id="Enmascarar_grupo_1090633" data-name="Enmascarar grupo 1090633" clip-path="url(#clip-path)">
+      <g id="Grupo_1092277" data-name="Grupo 1092277" transform="translate(1351.307 2137.307)" opacity="0.37">
+        <g id="Grupo_1067147" data-name="Grupo 1067147" transform="translate(0 41)" clip-path="url(#clip-path-2)">
+          <circle id="Elipse_8509" data-name="Elipse 8509" cx="64.275" cy="64.275" r="64.275" transform="translate(5.418 5.417)" fill="none" stroke="#6e40fc" stroke-miterlimit="10" stroke-width="0.5"/>
+          <circle id="Elipse_8510" data-name="Elipse 8510" cx="51.194" cy="51.194" r="51.194" transform="translate(18.5 18.499)" fill="none" stroke="#6e40fc" stroke-miterlimit="10" stroke-width="0.5"/>
+          <circle id="Elipse_8511" data-name="Elipse 8511" cx="38.113" cy="38.113" r="38.113" transform="translate(31.58 31.58)" fill="none" stroke="#6e40fc" stroke-miterlimit="10" stroke-width="0.5"/>
+          <circle id="Elipse_8512" data-name="Elipse 8512" cx="25.032" cy="25.032" r="25.032" transform="translate(44.661 44.66)" fill="none" stroke="#6e40fc" stroke-miterlimit="10" stroke-width="0.5"/>
+          <circle id="Elipse_8513" data-name="Elipse 8513" cx="11.951" cy="11.951" r="11.951" transform="translate(57.743 57.742)" fill="none" stroke="#6e40fc" stroke-miterlimit="10" stroke-width="0.5"/>
+        </g>
+      </g>
+      <g id="Trazado_834100" data-name="Trazado 834100" transform="translate(300 2368)" fill="none" opacity="0.57">
+        <path d="M61,0A61,61,0,1,1,0,61,61,61,0,0,1,61,0Z" stroke="none"/>
+        <path d="M 61 0 C 94.6893310546875 0 122 27.3106689453125 122 61 C 122 94.6893310546875 94.6893310546875 122 61 122 C 27.3106689453125 122 0 94.6893310546875 0 61 C 0 27.3106689453125 27.3106689453125 0 61 0 Z" stroke="none" fill="#e9e2ff"/>
+      </g>
+      <g id="Elipse_11038" data-name="Elipse 11038" transform="translate(1084 1940)" fill="none" stroke="#e9e2ff" stroke-width="25" opacity="0.57">
+        <circle cx="61" cy="61" r="61" stroke="none"/>
+        <circle cx="61" cy="61" r="48.5" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

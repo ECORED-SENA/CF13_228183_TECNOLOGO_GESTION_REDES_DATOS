@@ -10,10 +10,48 @@
     top: 51%
     right: 30%
 
-
 @keyframes float1
   0%
     transform: translateY(20px)
 
   100%
     transform: translateY(0px)
+.titulo-principal.color-acento-contenido .titulo-principal__numero
+  span
+    color: $white
+.bg-1-1
+  background-image: url('../assets/curso/temas/tema1/bg1.svg')
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+.mn
+  margin: 0 -3rem
+.bg-slyder
+  background-color: #fff
+  position: relative
+  overflow: hidden
+  box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.14)
+  border-radius: 20px
+  &:before
+    position: absolute
+    content: url('../assets/curso/temas/tema1/a1.svg')
+    width: 122px
+    top: 0
+    right: 0
+    transform: translateY(-50%) translateX(-300%)
+  &:after
+    position: absolute
+    content: url('../assets/curso/temas/tema1/a2.svg')
+    width: 122px
+    bottom: 0
+    right: 0
+    transform: translateY(-40%) translateX(40%)
+.tabs-c.color-acento-botones .tabs-c__tab--active
+  span
+    color: #1e5af9
+    font-weight: bold
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: $color-acento-botones
+  opacity: 1
+  border: 0
+  background-image: url('../assets/curso/temas/tema1/flechab.svg')
