@@ -5,7 +5,10 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Titulo de primer nivel
+      h1 Gestión de seguridad
+    .row.justify-content-center.mb-5
+      .col-lg-9.mb-lg-0.mb-3(data-aos="fade-right")
+        
 
 </template>
 
