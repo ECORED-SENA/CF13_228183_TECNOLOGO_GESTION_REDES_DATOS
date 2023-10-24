@@ -1,7 +1,8 @@
 export default {
   global: {
     componenteFormativo: 'Gestión de dispositivos de cómputo y servicios de re',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
+    descripcionCurso:
+      'A través de este componente formativo, el aprendiz se apropiará los elementos y conceptos necesarios para la gestión de los dispositivos de cómputo y servicios de red.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -31,13 +32,23 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Evolución de la gestión de red',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Gestión de red',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Elementos de la gestión de red',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Proceso de la gestión de red',
+            hash: 't_1_3',
           },
         ],
       },
@@ -45,13 +56,30 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Áreas funcionales de gestión de red',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Gestión de configuración',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Gestión de prestaciones',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Gestión de fallos',
+            hash: 't_2_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Gestión de seguridad',
         desarrolloContenidos: true,
       },
     ],
@@ -102,31 +130,58 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
-    },
-    {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: '2.1 Gestión de configuración',
+      referencia:
+        'Osaba, M. N. (2016). Virtualización en redes definidas por software. [Trabajo final de Maestría, Instituto Tecnológico de Buenos Aires].',
+      tipo: 'PDF',
+      link:
+        'https://ri.itba.edu.ar/server/api/core/bitstreams/799820b7-b9df-406e-ab36-1c45db60629f/content',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Administrador',
+      significado:
+        'rol asignado en una red y que otorga permisos para realizar cualquier tarea y acceder a cualquier recurso.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Enrutador',
+      significado:
+        'dispositivo de red que dirige o enruta paquetes a través de las redes.',
+    },
+    {
+      termino: 'Estación de trabajo',
+      significado: 'computadora que se ha unido a una red.',
+    },
+    {
+      termino: 'Red',
+      significado:
+        'dos o más computadoras o dispositivos periféricos conectados entre sí.',
+    },
+    {
+      termino: 'Repetidor',
+      significado:
+        'dispositivo de <em>hardware</em> que regenera cualquier señal que recibe y la envía de nuevo.',
+    },
+    {
+      termino: 'Tarjeta de red',
+      significado:
+        'adaptador de red que se instala en el interior de la caja de la computadora.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Banquet, P., & Bobillier, S. (2015). Linux: administración del sistema y explotación de los servicios de red. Ediciones ENI.',
+      link: '',
+    },
+    {
+      referencia: 'Barba Martí, A. (1999). Gestión de Red. Ediciones UPC.',
+      link: '',
+    },
+    {
+      referencia:
+        'Beekman, G. (2005). Introducción a la informática. Pearson educación.',
       link: '',
     },
   ],
@@ -151,10 +206,49 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          nombre: 'Jorge Eliécer Loaiza Muñoz',
+          cargo: 'Instructor',
+          centro: '',
+        },
+        {
+          nombre: 'Carlos Mauricio Tovar Artunduaga',
+          cargo: 'Instructor',
+          centro: '',
+        },
+        {
+          nombre: 'Julieth Paola Vital López',
+          cargo: 'Corrección de estilo',
+          centro: '',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano reyes',
+          cargo: 'Asesor pedagógico',
+          centro: '',
+        },
+        {
+          nombre: 'Heidi Zuleyma Gil Castañeda',
+          cargo: 'Experta temática',
+          centro: '',
+        },
+        {
+          nombre: 'Deivis Eduard Ramirez Martinez',
+          cargo: 'Diseñador instruccional',
+          centro: '',
+        },
+        {
+          nombre: 'Silvia Milena Sequeda Cárdena',
+          cargo: 'Evaluadora instruccional',
+          centro: '',
+        },
+        {
+          nombre: 'Jhon Jairo Rodríguez Pérez',
+          cargo: 'Diseñador y evaluador instruccional',
+          centro: '',
+        },
+        {
+          nombre: 'Ana Catalina Córdoba Sus',
+          cargo: 'Metodólogo para formación virtual',
+          centro: '',
         },
       ],
     },
@@ -162,13 +256,13 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Wilson Andres Arenales Cáceres',
           cargo: 'Diseñador de Contenidos Digitales',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Camilo Andres Bolaño Rey',
           cargo: 'Desarrollador Fullstack',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -180,7 +274,7 @@ export default {
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Nombre',
+          nombre: 'Camilo Andres Bolaño Rey',
           cargo: 'Actividad Didáctica',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
