@@ -24,6 +24,11 @@
   background-repeat: no-repeat
   background-size: cover
   background-position: center
+.bg-2-1
+  background-image: url('../assets/curso/temas/tema2/bg-2.svg')
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
 .mn
   margin: 0 -3rem
 .bg-slyder
@@ -46,6 +51,26 @@
     bottom: 0
     right: 0
     transform: translateY(-40%) translateX(40%)
+.bg-slyder2
+  background-color: #fff
+  position: relative
+  overflow: hidden
+  box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.14)
+  border-radius: 20px
+  &:before
+    position: absolute
+    content: url('../assets/curso/temas/tema1/a1.svg')
+    width: 122px
+    top: 0
+    right: 0
+    transform: translateY(-70%) translateX(-100%)
+  &:after
+    position: absolute
+    content: url('../assets/curso/temas/tema1/a2.svg')
+    width: 122px
+    bottom: 0
+    right: 0
+    transform: translateY(-40%) translateX(40%)
 .tabs-c.color-acento-botones .tabs-c__tab--active
   span
     color: #1e5af9
@@ -55,3 +80,12 @@
   opacity: 1
   border: 0
   background-image: url('../assets/curso/temas/tema1/flechab.svg')
+.acordion__activo
+  background-color: #d3dfff
+.acordion__accion__btn--a
+  background-color: $color-acento-botones
+  i
+    color: white
+.slyder-f__btn
+  i
+    color: $color-acento-botones
