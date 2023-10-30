@@ -7,17 +7,13 @@
         span 3
       h1 Gestión de seguridad
     .row.justify-content-center.mb-5
-      .col-lg-9.mb-lg-0.mb-3(data-aos="fade-right")
-        .cajon-b.color-acento-contenido.p-3.mb-1
-          p.mb-0 Proceso donde se implementan las políticas de manejo por parte de los usuarios, de los diferentes recursos ofrecidos por la red, para evitar el acceso de entes no autorizados y ataques por parte de códigos maliciosos.
-        .row.justify-content-center.mb-5
-          .col-lg-10
-            h4 Funciones de gestión de seguridad
-            p Las funciones de la gestión de seguridad, deben garantizar el cumplimiento de la integridad, confidencialidad y disponibilidad de la información, entre las funciones se tienen:
-          .col-lg-2.d-none.d-lg-block: img(src='@/assets/curso/temas/tema3/1.svg', alt='')
-      .col-lg-3.col-7(data-aos="fade-left"): img(src='@/assets/curso/temas/tema3/2.svg', alt='')
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-7(data-aos="fade-right").mb-lg-0.mb-3
+      .col-lg-8.mb-lg-0.mb-3(data-aos="fade-right")
+        .cajon-b.color-acento-contenido.p-3.mb-4
+          p.mb-0 Proceso donde se implementan las políticas de manejo por parte de los usuarios, de los diferentes recursos ofrecidos por la red, para evitar el acceso de entes no autorizados y ataques por parte de códigos maliciosos
+        
+        h4 Funciones de gestión de seguridad
+        p Las funciones de la gestión de seguridad, deben garantizar el cumplimiento de la integridad, confidencialidad y disponibilidad de la información, entre las funciones se tienen:
+        .contenido 
         .row.justify-content-center.align-items-center
           .col-lg-6
             .d-flex.align-items-center.mb-2
@@ -45,7 +41,9 @@
             .d-flex.align-items-center.mb-2
               img(src='@/assets/curso/temas/tema3/i8.svg', alt='' style="width: 38px").me-5
               p.mb-0 Configuración de logs.
-      .col-lg-5.col-7(data-aos="fade-left"): img(src='@/assets/curso/temas/tema3/3.svg', alt='')
+          
+      .col-lg-4.col-7.d-none.d-lg-block(data-aos="fade-left"): img(src='@/assets/curso/temas/tema3/c1.svg', alt='')
+    Separador
     .tarjeta.color-acento-contenido.d-inline-block.p-2.rounded-2.px-5.mb-5
       h3.text-white.mb-0.mx-4 Ataques en la gestión de seguridad
     .row.justify-content-center.align-items-center.mb-5
@@ -89,6 +87,7 @@
             p Funcional para identificar la latencia de los paquetes entre el host origen y el destino. Permite rastrear la ruta y especificar el número de saltos.
           .col-lg-6.col-7: img(src='@/assets/curso/temas/tema3/8.png', alt='')
       div(titulo="Whois")
+        p Describe los datos detallados correspondientes al dominio, tales como datos de contacto, fecha de caducidad del dominio, registro o disponibilidad del dominio.
     Separador
     p A continuación, se presenta un video sobre los aspectos más importantes de las áreas funcionales que se deben tener en cuenta para una buena gestión de red.
     figure

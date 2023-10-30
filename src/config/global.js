@@ -8,11 +8,19 @@ export default {
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/a1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/a2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/a3.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/portada/a4.png'),
       },
     ],
   },
@@ -208,47 +216,55 @@ export default {
         {
           nombre: 'Jorge Eliécer Loaiza Muñoz',
           cargo: 'Instructor',
-          centro: '',
+          centro:
+            'Centros de Servicios y Gestión Empresarial - Regional Antioquia',
         },
         {
           nombre: 'Carlos Mauricio Tovar Artunduaga',
           cargo: 'Instructor',
-          centro: '',
+          centro:
+            'Centros de Servicios y Gestión Empresarial - Regional Antioquia',
         },
         {
           nombre: 'Julieth Paola Vital López',
           cargo: 'Corrección de estilo',
-          centro: '',
+          centro:
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito capital',
         },
         {
           nombre: 'Rafael Neftalí Lizcano reyes',
           cargo: 'Asesor pedagógico',
-          centro: '',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Heidi Zuleyma Gil Castañeda',
           cargo: 'Experta temática',
-          centro: '',
+          centro:
+            'Centro de la Industria, la empresa y los servicios - CIES Regional Norte de Santander',
         },
         {
           nombre: 'Deivis Eduard Ramirez Martinez',
           cargo: 'Diseñador instruccional',
-          centro: '',
+          centro:
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito capital',
         },
         {
           nombre: 'Silvia Milena Sequeda Cárdena',
           cargo: 'Evaluadora instruccional',
-          centro: '',
+          centro: 'Centro de gestión industrial - Regional Distrito capital',
         },
         {
           nombre: 'Jhon Jairo Rodríguez Pérez',
           cargo: 'Diseñador y evaluador instruccional',
-          centro: '',
+          centro:
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
         },
         {
           nombre: 'Ana Catalina Córdoba Sus',
           cargo: 'Metodólogo para formación virtual',
-          centro: '',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },

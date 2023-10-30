@@ -44,52 +44,52 @@
               p.mb-0 La operatividad debe responder a los cambios realizados por el proceso de configuración, los cuales son una respuesta a los diferentes informes despachados por los procesos de monitorización y control.
       .col-lg-5.col-7(data-aos="fade-left"): img(src='@/assets/curso/temas/tema2/5.svg', alt='')
     p Dentro de las funciones ejecutadas en este proceso se identifican:
-    .bg-2-1.mn.p-5.mb-2
+    .bg-2-1.mn.p-5.mb-2.pb-1
       .row.justify-content-center.mb-5
         .col-lg-4.col-7(data-aos="fade-right").mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema2/6.svg', alt='')
         .col-lg-8(data-aos="fade-left")
           SlyderF.mb-5(columnas="col-lg-6 col-xl-6")
             .tarjeta.bg-slyder2.p-4.pt-5(style="min-height: 350px")
               .row.justify-content-center.mb-3
-                .col-5
+                .col-5.mb-5
                   img(src='@/assets/curso/temas/tema2/n1.svg' alt='AvatarTop' style="width: 80px").m-auto
               p.text-center Configuración de los parámetros definidos para garantizar el funcionamiento normal de la red.
             .tarjeta.bg-slyder2.p-4.pt-5(style="min-height: 350px")
               .row.justify-content-center.mb-3
-                .col-5
+                .col-5.mb-5
                   img(src='@/assets/curso/temas/tema2/n2.svg' alt='AvatarTop' style="width: 80px").m-auto
               p.text-center Documentar y proporcionar información de los cambios y del estado de la configuración.
             .tarjeta.bg-slyder2.p-4.pt-5(style="min-height: 350px")
               .row.justify-content-center.mb-3
-                .col-5
+                .col-5.mb-5
                   img(src='@/assets/curso/temas/tema2/n3.svg' alt='AvatarTop' style="width: 80px").m-auto
               p.text-center Manejar servidores de nombres, nombrar e identificar los elementos de la red.
             .tarjeta.bg-slyder2.p-4.pt-5(style="min-height: 350px")
               .row.justify-content-center.mb-3
-                .col-5
+                .col-5.mb-5
                   img(src='@/assets/curso/temas/tema2/n4.svg' alt='AvatarTop' style="width: 80px").m-auto
               p.text-center Ejecutar los cambios necesarios a la configuración cuando sea necesario.
             .tarjeta.bg-slyder2.p-4.pt-5(style="min-height: 350px")
               .row.justify-content-center.mb-3
-                .col-5
+                .col-5.mb-5
                   img(src='@/assets/curso/temas/tema2/n5.svg' alt='AvatarTop' style="width: 80px").m-auto
               p.text-center Funciones de inicialización y apagado.
             .tarjeta.bg-slyder2.p-4.pt-5(style="min-height: 350px")
               .row.justify-content-center.mb-3
-                .col-5
+                .col-5.mb-5
                   img(src='@/assets/curso/temas/tema2/n6.svg' alt='AvatarTop' style="width: 80px").m-auto
               p.text-center Planificación de la red, determinando necesidades de ampliación o reducción de la red y de los servicios.
             .tarjeta.bg-slyder2.p-4.pt-5(style="min-height: 350px")
               .row.justify-content-center.mb-3
-                .col-5
+                .col-5.mb-5
                   img(src='@/assets/curso/temas/tema2/n7.svg' alt='AvatarTop' style="width: 80px").m-auto
               p.text-center Instalación de dispositivos o programas.
             .tarjeta.bg-slyder2.p-4.pt-5(style="min-height: 350px")
               .row.justify-content-center.mb-3
-                .col-5
+                .col-5.mb-5
                   img(src='@/assets/curso/temas/tema2/n8.svg' alt='AvatarTop' style="width: 80px").m-auto
               p.text-center Supervisión y control de los aspectos de red referentes a cambios de estado y definición de rutinas de control.
-    Separador
+    Separador.pt-1
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.2  Gestión de prestaciones
     .row.justify-content-center.mb-5
@@ -100,7 +100,7 @@
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
       .row(titulo="Medidas orientadas a servicios")
         .col-md-7.mb-4.mb-md-0
-          p Recolectando datos sobre calidad del servicio (QoS quality of service) de los diferentes elementos de red, se realiza el monitoreo y control, con el objetivo claro de mantener la calidad desde la percepción usuario final, para lo cual son aspectos fundamentales la disponibilidad de hardware y software, medida en el porcentaje de tiempo que la red esté disponible para usuario final, los tiempos de respuesta de los dispositivos y servicios a las acciones del usuario y la fiabilidad definida como el tiempo sin errores en transmisión y entrega; la información recolectada se emplea para procesar datos y generar informes que permitan evitar embotellamientos, ejecutar acciones correctivas y verificar los niveles o umbrales de satisfacción.
+          p Recolectando datos sobre calidad del servicio (QoS #[em quality of service]) de los diferentes elementos de red, se realiza el monitoreo y control, con el objetivo claro de mantener la calidad desde la percepción usuario final, para lo cual son aspectos fundamentales la disponibilidad de #[em hardware] y #[em software], medida en el porcentaje de tiempo que la red esté disponible para usuario final, los tiempos de respuesta de los dispositivos y servicios a las acciones del usuario y la fiabilidad definida como el tiempo sin errores en transmisión y entrega; la información recolectada se emplea para procesar datos y generar informes que permitan evitar embotellamientos, ejecutar acciones correctivas y verificar los niveles o umbrales de satisfacción.
         .col-lg-3.col-7
           figure
             img(src='@/assets/curso/temas/tema2/8.jpg', alt='Texto que describa la imagen')
@@ -147,10 +147,13 @@
       .col-lg-10(data-aos="fade-right").mb-lg-0.mb-3
         TabsA.color-acento-botones.mb-5
           .tarjeta.p-4(titulo="Archivos históricos (.log)" style="background-color: #e9e2fe ")
+            h5 Archivos históricos (.log)
             p Herramientas esenciales que registran la actividad de los recursos y permiten el posterior análisis y procesamiento de datos, mínimo el agente debe poder mantener un registro (.log) para eventos significativos y errores, de manera que provea datos concretos de la ocurrencia de fallos o eventos, y con base en estos, la monitorización informará cuando detecte condiciones de error en los registros, cruces de umbral en los parámetros definidos y demás factores establecidos para la generación de alertas.
           .tarjeta.p-4(titulo="Administrador de red" style="background-color: #e9e2fe ")
+            h5 Administrador de red
             p Este proceso es coadyuvante del encargado de administrar la red en la tarea de identificación de fallas y sus correcciones, a través de herramientas lógicas que realicen constantemente escaneo de la red, efectuando acciones como pruebas de conectividad, de integridad de datos, de integridad de protocolos o de tiempos de respuesta. Es importante que para una adecuada gestión de fallos, se provea de una interfaz de usuario efectiva que permita desarrollar oportuna y adecuadamente la localización, aislamiento y diagnóstico del fallo.
           .tarjeta.p-4(titulo="Funciones de gestión <br>de fallos" style="background-color: #e9e2fe ")
+            h5 Funciones de gestión de fallos
             p Las funciones propias de esta gestión se relacionan directamente con las producidas en la gestión de alertas y semáforos generados por la gestión de prestaciones con base en los datos, informes estadísticos y todo el material de apoyo suministrado por los procesos de monitoreo.
       .col-lg-2.col-4: img(src='@/assets/curso/temas/tema2/12.svg', alt='')
     p En las funciones de gestión de fallos, pueden resaltarse entre otras:
