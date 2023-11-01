@@ -1,6 +1,7 @@
 export default {
   global: {
-    componenteFormativo: 'Gestión de dispositivos de cómputo y servicios de re',
+    componenteFormativo:
+      'Gestión de dispositivos de cómputo y servicios de red',
     descripcionCurso:
       'A través de este componente formativo, el aprendiz se apropiará los elementos y conceptos necesarios para la gestión de los dispositivos de cómputo y servicios de red.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
@@ -122,7 +123,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/228183_CF13_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -226,39 +227,10 @@ export default {
             'Centros de Servicios y Gestión Empresarial - Regional Antioquia',
         },
         {
-          nombre: 'Julieth Paola Vital López',
-          cargo: 'Corrección de estilo',
-          centro:
-            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito capital',
-        },
-        {
-          nombre: 'Rafael Neftalí Lizcano reyes',
-          cargo: 'Asesor pedagógico',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
           nombre: 'Heidi Zuleyma Gil Castañeda',
           cargo: 'Experta temática',
           centro:
             'Centro de la Industria, la empresa y los servicios - CIES Regional Norte de Santander',
-        },
-        {
-          nombre: 'Deivis Eduard Ramirez Martinez',
-          cargo: 'Diseñador instruccional',
-          centro:
-            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito capital',
-        },
-        {
-          nombre: 'Silvia Milena Sequeda Cárdena',
-          cargo: 'Evaluadora instruccional',
-          centro: 'Centro de gestión industrial - Regional Distrito capital',
-        },
-        {
-          nombre: 'Jhon Jairo Rodríguez Pérez',
-          cargo: 'Diseñador y evaluador instruccional',
-          centro:
-            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
         },
         {
           nombre: 'Ana Catalina Córdoba Sus',

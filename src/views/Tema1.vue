@@ -52,6 +52,7 @@
             .col-lg-8
               h4(style="color: #143eac") Dispositivo administrativo
               p Se trata de cada uno de los nodos o dispositivos de la red, en los cuales se instala el agente recolector de información almacenada en la base de datos MIB.
+      p.mb-5(data-aos='fade-right') A continuación, lo invitamos a ver un video donde se explican los elementos de gestión de red.
       figure.mb-0
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
