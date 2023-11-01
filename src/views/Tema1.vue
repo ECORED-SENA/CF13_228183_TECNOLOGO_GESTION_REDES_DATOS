@@ -55,8 +55,8 @@
       p.mb-5(data-aos='fade-right') A continuación, lo invitamos a ver un video donde se explican los elementos de gestión de red.
       figure.mb-0
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption Video: Leyenda del video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/RYWnfd6yJIg?si=sCSTbQ8qnSdL8xB2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Video. Gestion de red
     Separador.pt-4
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.3  Proceso de la gestión de red

@@ -92,8 +92,8 @@
     p A continuación, se presenta un video sobre los aspectos más importantes de las áreas funcionales que se deben tener en cuenta para una buena gestión de red.
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/xqSKpjVJDJE?si=_8viekqZZZibwDjx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Áreas funcionales gestion de red
         
 
 

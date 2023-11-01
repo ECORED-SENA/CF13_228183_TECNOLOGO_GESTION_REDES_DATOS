@@ -15,8 +15,8 @@
           .col-lg-11(data-aos="fade-left"): p.mb-0 Para comenzar con el estudio de la temática del componente formativo, lo invitamos a ver el siguiente video.
       figure
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/4TEXJespKAE?si=GJKw7O1Yyvh2mgz8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Gestión de dispositivos de cómputo y servicios de red
     
 </template>
 
