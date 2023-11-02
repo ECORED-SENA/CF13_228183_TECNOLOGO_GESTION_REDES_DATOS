@@ -31,21 +31,21 @@
       p Algunos componentes que intervienen en el proceso de gestión de las redes, son:
       .tarjeta.bg-slyder.p-5.mb-5
         SlyderA(tipo='b').mx-5
-          .row.align-items-center
+          .row.align-items-center.mx-3
             .col-lg-4.col-7.mb-4.mb-md-0
               figure
                 img(src='@/assets/curso/temas/tema1/c1.jpg', alt='')
             .col-lg-8
               h4(style="color: #143eac") Agentes
               p  Es un #[em software] especial que se instala o aloja en un nodo o dispositivo de la red. La información recaudada por el agente se almacena en una base de datos especial denominada MIB #[em (Management Information Base)], la cual organiza la información de manera jerárquica y la pone a disposición del gestor cuando lo requiera.
-          .row.align-items-center
+          .row.align-items-center.mx-3
             .col-lg-4.col-7.mb-4.mb-md-0
               figure
                 img(src='@/assets/curso/temas/tema1/c2.jpg', alt='')
             .col-lg-8
               h4(style="color: #143eac") Gestores 
               p  En toda red debe existir mínimo un dispositivo que desempeñe el rol de gestor, en el cual la MIB contiene la información de todos los agentes que controla. El gestor también se conoce como NMS (Sistema de Gestión de Redes, #[em Network Management System]) y es el encargado de la administración de la red; según la arquitectura de la red, puede existir más de uno, y poseen una AGR (Aplicación de Gestión de Red), que proporciona una interfaz de operador para la gestión de red.
-          .row.align-items-center
+          .row.align-items-center.mx-3
             .col-lg-4.col-7.mb-4.mb-md-0
               figure
                 img(src='@/assets/curso/temas/tema1/c3.jpg', alt='')
@@ -72,12 +72,12 @@
           p.mb-0 El monitoreo y el control se encuentran implicados en todas y cada una de las áreas de la gestión de una red, cobrando mayor o menor relevancia según su ubicación, es decir, para las áreas de contabilidad, prestaciones o fallos, son más importantes los procesos de monitoreo y desde las áreas de configuración o seguridad, se dará más relevancia los procesos de control.
     p A continuación, se presenta la descripción de los procesos de monitoreo y control.
     TabsC.color-acento-botones.mb-5
-      .py-4.py-md-5(titulo="Proceso de monitoreo" style="background-color: #f6f6f6")
+      .py-4.py-md-5.p-sm-4(titulo="Proceso de monitoreo" style="background-color: #f6f6f6")
         .row.p-3
           .col-lg-4.mb-4.mb-lg-0: img(src='@/assets/curso/temas/tema1/6.png', alt='')
           .col-lg-8
             p Proceso permanente que vigila y recauda información de todos los nodos de red, determinando el estado del funcionamiento. Se realiza de forma local o remota, mediante funciones de lectura, para el análisis y el diagnóstico del comportamiento de la red, buscando datos históricos, en caso de requerirse un análisis profundo en la búsqueda de motivos o causas de cualquier problema; proporciona también datos inmediatos como el proceso WebNMS, que permiten conocer en tiempo real el comportamiento de todos los dispositivos con auditoría continua, de manera que reporta cualquier error al momento y permite intervenir oportunamente, disminuyendo el impacto del incidente.
-      .py-4.py-md-5(titulo="Proceso de control" style="background-color: #f6f6f6")
+      .py-4.py-md-5.p-sm-4(titulo="Proceso de control" style="background-color: #f6f6f6")
         .row
           .col-lg-4.mb-4.mb-lg-0: img(src='@/assets/curso/temas/tema1/7.png', alt='')
           .col-lg-8
