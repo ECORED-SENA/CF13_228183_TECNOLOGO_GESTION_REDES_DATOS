@@ -141,7 +141,7 @@ export default {
     {
       tema: '2.1 Gestión de configuración',
       referencia:
-        'Osaba, M. N. (2016). Virtualización en redes definidas por software. [Trabajo final de Maestría, Instituto Tecnológico de Buenos Aires].',
+        'Osaba, M. N. (2016). Virtualización en redes definidas por <em>software</em>. [Trabajo final de Maestría, Instituto Tecnológico de Buenos Aires].',
       tipo: 'PDF',
       link:
         'https://ri.itba.edu.ar/server/api/core/bitstreams/799820b7-b9df-406e-ab36-1c45db60629f/content',
@@ -256,8 +256,14 @@ export default {
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
+          nombre: 'Carmen Alicia Martínez Torres',
+          cargo: 'Animador y Producción Multimedia',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Daniela Muñoz Bedoya',
+          cargo: 'Animador y Producción Multimedia',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },

@@ -106,7 +106,7 @@
             img(src='@/assets/curso/temas/tema2/8.jpg', alt='Texto que describa la imagen')
       .row(titulo="Medidas orientadas a la eficiencia")
         .col-md-7.mb-4.mb-md-0
-          p La eficiencia busca definir las medidas necesarias para que los niveles de satisfacción siempre se encuentren cubiertos y que esta cobertura implique los mínimos costos para la red. Para alcanzar este objetivo, se tienen en cuenta factores como el #[em Trougtput] (tasa de transferencia efectiva), conocida como la velocidad real del transporte de datos, la tasa de ocurrencia de un evento y la utilización, entendida como la capacidad de un recurso para responder, medidas que permite detectar escenarios próximos de congestión.
+          p La eficiencia busca definir las medidas necesarias para que los niveles de satisfacción siempre se encuentren cubiertos y que esta cobertura implique los mínimos costos para la red. Para alcanzar este objetivo, se tienen en cuenta factores como el #[em Throughput] (tasa de transferencia efectiva), conocida como la velocidad real del transporte de datos, la tasa de ocurrencia de un evento y la utilización, entendida como la capacidad de un recurso para responder, medidas que permite detectar escenarios próximos de congestión.
         .col-lg-3.col-7
           figure
             img(src='@/assets/curso/temas/tema2/9.jpg', alt='Texto que describa la imagen')

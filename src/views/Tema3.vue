@@ -40,7 +40,7 @@
               p.mb-0 Configuraciones de privacidad.
             .d-flex.align-items-center.mb-2
               img(src='@/assets/curso/temas/tema3/i8.svg', alt='' style="width: 38px").me-5
-              p.mb-0 Configuración de logs.
+              p.mb-0 Configuración de #[em logs.]
           
       .col-lg-4.col-7.d-none.d-lg-block(data-aos="fade-left"): img(src='@/assets/curso/temas/tema3/c1.svg', alt='')
     Separador
@@ -79,7 +79,7 @@
       div(titulo="GetMAC")
         .row.justify-content-center.mb-5
           .col-lg-6.mb-lg-0.mb-3
-            p Permite verificar el estado de la comunicación del host, mediante el envío de paquetes. Permite visualizar datos de conectividad, tiempos de respuesta, velocidad con el fin de analizar la calidad de la red y latencia.
+            p Permite visualizar las direcciones MAC que se encuentran asociadas en el adaptador de red. La Mac es la dirección física única en cada dispositivo. Útil para identificar el equipo.
           .col-lg-6.col-7: img(src='@/assets/curso/temas/tema3/7.png', alt='')
       div(titulo="Tracert")
         .row.justify-content-center.mb-5

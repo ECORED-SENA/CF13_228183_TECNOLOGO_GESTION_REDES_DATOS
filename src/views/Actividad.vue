@@ -10,8 +10,8 @@
             img(src="@/assets/template/Arrastrar_Soltar.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Gestión de dispositivos y servicios de red
-        p.mb-4 Relacionar conceptos referentes a la gestión de la plataforma tecnológica de la organización.
+          h2 Gestión de dispositivos de cómputo y servicios de red
+        p.mb-4 Relacionar conceptos correspondientes al proceso de gestión de las redes.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
