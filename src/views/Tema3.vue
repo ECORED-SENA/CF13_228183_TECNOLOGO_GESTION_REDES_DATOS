@@ -93,7 +93,7 @@
     figure
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/IeEZ4SkQA08?si=uUGIrIKIW3sxGryK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video. Áreas funcionales gestion de red
+      figcaption Video. Áreas funcionales gestión de red
         
 
 

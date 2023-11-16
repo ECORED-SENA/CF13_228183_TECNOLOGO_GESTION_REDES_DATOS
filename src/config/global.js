@@ -216,13 +216,13 @@ export default {
       autores: [
         {
           nombre: 'Jorge Eliécer Loaiza Muñoz',
-          cargo: 'Instructor',
+          cargo: 'Experto temático',
           centro:
             'Centros de Servicios y Gestión Empresarial - Regional Antioquia',
         },
         {
           nombre: 'Carlos Mauricio Tovar Artunduaga',
-          cargo: 'Instructor',
+          cargo: 'Experto temático',
           centro:
             'Centros de Servicios y Gestión Empresarial - Regional Antioquia',
         },
